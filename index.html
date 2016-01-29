@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Varun Shivakumar</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,300italic,400italic,600italic,700,700italic,800italic' rel='stylesheet' type='text/css'>
+
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="icons/flaticon.css">
+</head>
+
+
+<body class="posRel marg0 pad0" style="overflow-x: hidden; -ms-overflow-x: hidden;">
+
+<!-- <div id="header"></div> -->
+<!-- Sidebar
+<div class="posFix" style="right: -40px; top: 100px; height: 750px; width: 200px; background-size: 100% 100%; z-index: 10;">
+    <div class="sidebar-item posRel" style="z-index: 6;"><span class="posRel" style="top: 50px;">Home</span></div>
+    <div class="sidebar-item posRel" style="bottom: 35px;  z-index: 5;"><span class="posRel" style="top: 50px;">Profile</span></div>
+    <div class="sidebar-item posRel" style="bottom: 70px;  z-index: 4;"><span class="posRel" style="top: 50px;">Experience</span></div>
+    <div class="sidebar-item posRel" style="bottom: 105px; z-index: 3;"><span class="posRel" style="top: 50px;">Skills</span></div>
+    <div class="sidebar-item posRel" style="bottom: 140px; z-index: 2;"><span class="posRel" style="top: 50px;">Projects</span></div>
+    <div class="sidebar-item posRel" style="bottom: 175px; z-index: 1;"><span class="posRel" style="top: 50px;">Contact</span></div>
+</div>-->
+
+
+<!-- Container -->
+<div class="centerBlock pad0 bordWhite">
+    <!-- Animated Clouds -->
+    <div class="sky posAbs z2 width100" style="top: -120px;position: absolute;">
+        <div class="clouds_one"></div>
+        <div class="clouds_two"></div>
+        <div class="clouds_three"></div>
+    </div>
+
+    <!-- Splash Page -->
+    <div id="" class="posRel height110vh" style="">
+        <!-- Splash Page Content -->
+        <img src="images/nyskyline.jpg" height="100%" width="100%" class="posAbs z-1">
+        <div id="splashPageTitle" class="centerText">Varun Shivakumar</div>
+        <div id="blackDivider"></div>
+        <div id="splashPageLogo" class="centerText">V.S.</div>
+        <div id="splashBar">
+            <a href="#profile"      class="inlineBlock splashPageBarItem posRel" style="bottom: 60px; left: 10px;">
+                <span class="flaticon-users81       posRel" style="right: 12px; top: 5px;"></span>
+            </a>
+            <a href="#experiences"  class="inlineBlock splashPageBarItem posRel" style="bottom: 20px;">
+                <span class="flaticon-business188   posRel" style="right: 12px; top: 5px;"></span>
+            </a>
+            <a href="#abilities"    class="inlineBlock splashPageBarItem posRel" style="">
+                <span class="flaticon-ascending11   posRel" style="right: 12px; top: 5px;"></span>
+            </a>
+            <a href="#projects"     class="inlineBlock splashPageBarItem posRel" style="bottom: 20px;">
+                <span class="flaticon-pc6           posRel" style="right: 13px; top: 6px;"></span>
+            </a>
+            <a  href="#contact"     class="inlineBlock splashPageBarItem posRel" style="bottom: 60px; right: 10px;">
+                <span class="flaticon-envelope91    posRel" style="right: 12px; top: 5px;"></span>
+            </a>
+
+        </div>
+
+        <!-- Wave Animation -->
+        <div id="wave-animation" class="" style="">
+            <div class="posRel height110vh " style="bottom: 88vh;">
+                <img src="images/nyskyline.jpg" height="100%" width="100%" class="z1">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Page -->
+    <div id="profile" class="backColWhite">
+        <div class="centerText centerBlock contentContainer" style="">
+            <!-- Profile Title -->
+            <div class="textTitle colDefault centerText centerblock fontSize40">Profile</div>
+            <div class="textFont centerText quote" style="">I am an eager, inquisitive computer science student</div>
+            <div class="centerText grayDivider" style=""></div>
+
+            <!-- Details Container -->
+            <div class="inlineBlock vertAlignTop height100" style="">
+                <div>
+                    <!-- Picture
+                    <img src="https://image.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg" id="picture" width="43%" class="centerBlock" alt="Coming Soon" style="position: relative; min-width: 300px;"/>
+                    -->
+                    <!-- About Me Description -->
+                    <div class="inlineBlock vertAlignTop" style="min-width: 43%; height: 100%; padding: 4% 4% 0 4%; margin-left: 4%; margin-top: 15px;">
+                        <div class="textFont fontSize18 colBlack" style="text-align: left;">
+                            <div class="inlineBlock">
+                                I am currently a student at
+                                <span class="textTitleBold">Stony Brook University</span> pursuing a
+                                <span class="textTitleBold">B.S. in Computer Science.</span>
+                                I have a great interest and amount of experience in
+                                <span class="textTitleBold">web development</span> and am very skilled with
+                                Ruby on Rails, HTML, CSS, Javascript and JQuery. I also have a strong interest in
+                                <span class="textTitleBold">Big Data</span>.
+                            </div>
+
+                            <div class="centerText colDefault " style=" margin: 20px auto 30px auto;"><span class="flaticon-poker25" style="padding-right: 20px;"></span></div>
+
+                            <div class="inlineBlock">
+                                I am very <span class="textTitleBold"> passionate </span> about my work and
+                                always strive to improve as an individual, teammate, and as a programmer.
+                                I am <span class="textTitleBold">enthusiastic</span> about my work and I work hard to
+                                grow my skills and to develop readable, reliable, and efficient code.
+                                <!--(Robust, extensible, maintainable, atomic, testable, functional)-->
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Details -->
+                    <div class="textFont fontSize16 colBlack " style="width: 43%; min-width: 300px; text-align: center; margin: 80px auto 0 auto; padding: 5px 0 25px 0; border-left: 3px solid #50517F; border-right: 3px solid #50517F; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;">
+                        <div> <span class="textTitleBold">Name:     </span>Varun Shivakumar    </div>
+                        <div> <span class="textTitleBold">Location: </span>Stony Brook, NY     </div>
+                        <div> <span class="textTitleBold">Age:      </span>20                  </div>
+                    </div>
+                    <span class="flaticon-directional25 centerText colDefault posRel" style="padding-right: 19px;bottom: 7px;"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Experiences Page -->
+    <div id="experiences" class="backColOther">
+        <div class="centerText contentContainer centerBlock" style="">
+            <!-- Experiences Title -->
+            <div class="textTitle colDefault centerText" style="margin: 0 auto 0 auto; font-size: 40px;">Experience</div>
+            <div class="textFont centerText" style="font-size: 19px; margin: 15px auto 0 auto;">"The only source of knowledge is experience"</div>
+            <div class="textFont centerText" style="font-size: 19px; margin: 0 auto 15px auto;">- Albert Einstein</div>
+            <div class="centerText" style="height: 2px; width: 90%; background-color: lightgrey; margin: 25px auto 40px auto;"></div>
+
+            <!-- Container for Experience Content -->
+            <div class="" style="padding: 0 25px 0 25px;">
+                <!-- ### Education ### -->
+                <div class="textTitle colDefault vertAlignTop" style="font-size: 28px; text-align: left;padding-bottom: 25px;">
+                    <span class="" style="">Education</span>
+                    <span class="flaticon-apple20 vertAlignTop posRel" style="bottom: 3px; right: 10px;"></span>
+                </div>
+                <!-- Stony Brook University-->
+                <div class="textFont vertAlignTop" style="text-align: left;">
+                    <div class="textTitleBold" style="font-size: 20px;">Stony Brook University</div>
+                    <div style="margin-bottom: 20px;">Aug 2013 - June 2017</div>
+                    <div class="textTitleBold">Bachelor's of Science - Computer Science<!-- - GPA: 3.43--></div>
+                    <div>
+                        The education was mostly in Java where I learned core computer science fundamentals,
+                        practical coding practices, and became well-versed in data structures and algorithms.
+
+                        Aspiring to complete a specialization in Systems Software Developement.
+                    </div>
+                </div>
+
+                <div style="height: 25px;"></div>
+
+                <!-- ### Work Experience ### -->
+                <div class="textTitle colDefault" style="font-size: 28px; text-align: left;padding-bottom: 25px;">
+                    Work Experience<span class="flaticon-business188 posRel" style="font-size: 35px; bottom: 1px; right: 5px;"></span>
+                </div>
+                <!-- DealerTrack -->
+                <div class="textFont" style="text-align: left;">
+                    <div class="textTitleBold" style="font-size: 20px;">DealerTrack Technologies</div>
+                    <div style="margin-bottom: 20px;">June 2012 - August 2012</div>
+                    <div class="textTitleBold">Programming Intern</div>
+                    <div>
+                        Converted many of the C# programs into Python Programs on an Ubuntu Linux OS.
+                        Completed several projects ranging from validations of social security numbers,
+                        phone numbers, credit card numbers and parsing addresses for the company's web-based
+                        applications. Wrote test cases for these programs to catch invalid inputs and to verify
+                        correct parsing of information. Also used REGEX to parse data.
+                    </div>
+                </div>
+
+                <!-- Camp Counselor -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Abilities Page -->
+    <div id="abilities" class="backColWhite" style="">
+        <div class="centerText contentContainer centerBlock" style="">
+
+            <!-- Experiences Title -->
+            <div class="textTitle colDefault centerText" style="margin: 0 auto 0 auto; font-size: 40px;">Abilities</div>
+            <div class="textFont centerText" style="font-size: 19px; margin: 15px auto 0 auto;">"Self-belief and hard work will always earn you success"</div>
+            <div class="textFont centerText" style="font-size: 19px; margin: 0 auto 15px auto;">- Virat Kohli</div>
+            <div class="centerText" style="height: 2px; width: 90%; background-color: lightgrey; margin: 25px auto 40px auto;"></div>
+
+            <!-- Skills Title -->
+            <div class="textTitle colDefault" style="font-size: 28px; text-align: left;padding-bottom: 25px;">Skills</div>
+
+            <!-- Skills-->
+            <div class="textFont" style="text-align: left;">
+                <!-- HTML -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/html.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>HTML</span>
+                </div>
+
+                <!-- CSS -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/css.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>CSS</span>
+                </div>
+
+                <!-- JS -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/js.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Javascript</span>
+                </div>
+
+                <!-- JQuery -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/jquery.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>JQuery</span>
+                </div>
+
+                <!-- Ruby -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/ruby.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Ruby</span>
+                </div>
+
+                <!-- Ruby on Rails -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/rails.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Rails</span>
+                </div>
+
+                <!-- AJAX -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/ajax.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>AJAX</span>
+                </div>
+
+                <!-- Java -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/java.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Java</span>
+                </div>
+
+                <!-- C++ -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/c++.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>C++</span>
+                </div>
+
+                <!-- C -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/clanguage.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>C</span>
+                </div>
+
+                <!-- Python -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/python.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Python</span>
+                </div>
+
+                <!-- OCAML -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/ocaml.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>OCAML</span>
+                </div>
+
+                <!-- Prolog -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/prolog.jpg" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Prolog</span>
+                </div>
+
+                <!-- Visual Basic -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/visualbasic.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Visual Basic</span>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- Tools Title -->
+            <div class="textTitle colDefault" style="font-size: 28px; text-align: left;padding: 25px 0;">Tools</div>
+            <!-- Tools  -->
+            <div class="textFont" style="text-align: left;">
+                <!-- RubyMine -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/rubymine.svg" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>RubyMine</span>
+                </div>
+
+                <!-- Eclipse Juno -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/eclipse.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Eclipse</span>
+                </div>
+
+                <!-- NetBeans -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/netbean.jpg" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>NetBeans</span>
+                </div>
+
+                <!-- Notepad++ -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/notepad.jpg" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Notepad++</span>
+                </div>
+
+                <!-- GIT -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/git.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Git</span>
+                </div>
+
+                <!-- WebStorm -->
+                <div class="inlineBlock" style="margin: 10px; font-size: 32px; vertical-align: top; border: 1px solid #50517F;padding: 3px 15px 5px 10px; border-radius: 5px;">
+                    <img src="images/webStorm.png" height="36px" width="36px" style="margin: 0;position: relative; top: 5px;"/>
+                    <span>Webstorm</span>
+                </div>
+
+            </div>
+            <!-- Operating Systems -->
+                <!-- Windows 7/8/10 -->
+                <!-- Ubuntu 14.04 -->
+                <!-- MAC OS X Snow Leopard -->
+
+            <!-- Frameworks/Patterns -->
+             <!-- Model-View-Controller Model -->
+
+        </div>
+    </div>
+
+
+    <!-- Projects -->
+    <div id="projects" class="backColOther" style="">
+        <div class="centerText contentContainer centerBlock" style="">
+
+            <div class="textTitle colDefault centerText" style="margin: 0 auto 0 auto; font-size: 40px;">Projects</div>
+            <div class="textFont centerText" style="font-size: 19px; margin: 15px auto 0 auto;">"You can do anything you set your mind to"</div>
+            <div class="textFont centerText" style="font-size: 19px; margin: 0 auto 15px auto;">- Benjamin Franklin</div>
+            <div class="centerText" style="height: 2px; width: 90%; background-color: lightgrey; margin: 25px auto 40px auto;"></div>
+
+            <!-- CSE392 Application Flowline -->
+            <a href="#app-flowline" class="inlineBlock" style="text-decoration: none; border: 2px solid white; position: relative; border-radius: 20%; overflow: hidden; height: 250px; width: 250px; margin: 25px; z-index: 0; ">
+                <!-- Container for Project Information -->
+                <div style="position: relative; background-color: #50517F; z-index: 2; height: 100%; width: 100%; padding-top: 25px; opacity: 0.85;">
+
+                    <!-- Project Name -->
+                    <div class="textTitle centerText" style="color: white; position: relative; z-index: 3;font-size: 20px; margin: 0 auto 25px auto; padding: 0 auto;"> Application Flowline</div>
+
+                    <!-- Divider -->
+                    <div style="position: relative; z-index: 3; background-color: lightgrey; height: 2px; width: 80%; margin: 0 auto;"></div>
+
+                    <!-- Project Description -->
+                    <div class="textFont centerText" style="color: white; position: relative; z-index: 3; line-height: 200%;font-size: 14px; margin: 25px auto; padding: 0 25px;">The application flowline for this website for CSE392 - Mobile Applications Class</div>
+                </div>
+
+                <!-- Background Image -->
+                <div class="centerText" style="position: absolute; top: 0; z-index: 1; width: 90%; height: 90%; margin: 4.9%;">
+                    <img class="" src="images/vshivakumar_appflow_image.png" align="middle" width="100%" height="100%">
+                </div>
+            </a>
+
+            <!-- CSE392 Application Wireframe -->
+            <a href="#app-wireframe" class="inlineBlock" style="text-decoration: none; border: 2px solid white; position: relative; border-radius: 20%; overflow: hidden; height: 250px; width: 250px; margin: 25px; z-index: 0; ">
+                <!-- Container for Project Information -->
+                <div style="position: relative; background-color: #50517F; z-index: 2; height: 100%; width: 100%; padding-top: 25px; opacity: 0.85;">
+
+                    <!-- Project Name -->
+                    <div class="textTitle centerText" style="color: white; position: relative; z-index: 3;font-size: 20px; margin: 0 auto 25px auto; padding: 0 auto;"> Application Wireframe</div>
+
+                    <!-- Divider -->
+                    <div style="position: relative; z-index: 3; background-color: lightgrey; height: 2px; width: 80%; margin: 0 auto;"></div>
+
+                    <!-- Project Description -->
+                    <div class="textFont centerText" style="color: white; position: relative; z-index: 3; line-height: 200%;font-size: 14px; margin: 25px auto; padding: 0 25px;">The application wireframe for this website for CSE392 - Mobile Applications Class</div>
+                </div>
+
+                <!-- Background Image -->
+                <div class="centerText" style="position: absolute; top: 0; z-index: 1; width: 90%; height: 90%; margin: 4.9%;">
+                    <img class="" src="images/vswireframe.png" align="middle" width="100%" height="100%">
+                </div>
+            </a>
+            <!-- Internship Programs -->
+            <!-- Boy Scouts of America Service Project -->
+
+        </div>
+    </div>
+
+    <!-- Leadership? -->
+    <!-- Extracurriculurs ? -->
+    <!-- Languages ? -->
+
+    <!-- Contact -->
+    <div id="contact" class="backColWhite">
+        <div class="centerText contentContainer centerBlock" style="min-height:0; height: 350px;">
+
+            <!-- Contact Title -->
+            <div class="textTitle colDefault centerText" style="margin: 0 auto; font-size: 40px;">Contact Me</div>
+
+            <!-- Underline -->
+            <div class="centerText" style="height: 2px; width: 90%; background-color: lightgrey; margin: 25px auto 55px auto;"></div>
+
+            <!-- Email
+            <div class="inlineBlock textTitle" style="margin: 25px;">
+                <div class="textTitleBold">Email:</div>
+                <div>varunshivakumar@outlook.com</div>
+                <div>varun.shivakumar@stonybrook.edu</div>
+            </div>-->
+
+            <!-- Address
+            <div class="inlineBlock textTitle" style="margin: 25px;">
+                <div class="textTitleBold">Home Address:</div>
+                <div>1 Howard Ct., Plainview, NY, 11803</div>
+            </div>-->
+
+            <!-- School Address
+            <div class="inlineBlock textTitle" style="margin: 25px;">
+                <div class="textTitleBold">School Address:</div>
+                <div>100 Circle Rd, Stony Brook, NY, 11790</div>
+            </div>-->
+
+            <!-- Social Media
+            <div style="height: 30px;"></div>-->
+
+            <!-- Contact Me
+            <div class="textTitle" style="font-size: 25px;">Contact Me</div>-->
+
+            <form id="form" action="https://docs.google.com/forms/d/1-9ot14C9_ycZadWJJMieKKDPzXy83f-adaahMkdV0aE/formResponse">
+                <input id="name" value="Your Name" name="entry.1010706963" class="textTitle" style="display: block; margin: 10px auto; padding: 10px; width: 65%; border: 1px solid #50517F;"/>
+                <textarea id="message" class="textTitle" name="entry.1673841111" style="resize: none; padding: 10px; width: 65%; height: 80px; display: block; margin: 10px auto; vertical-align: top; border: 1px solid #50517F;">Message Me!</textarea>
+                <button id="submit-btn" onclick="postContactToGoogle()" style="background-color:#50517F; color: white; padding: 5px 10px; width: 100px; margin: 0 auto; border-radius: 5px; cursor: pointer;">Send Message</button>
+                <div id="message-status" class="textTitle" style="font-size: 25px;"></div>
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <div style="padding: 25px; text-align: center;">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a>
+        from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
+        is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+    </div>
+
+</div>
+
+<div id="app-flowline" style="" class="lightbox-target">
+    <img class="" src="images/vshivakumar_appflow_image.png" align="middle" width="60%" height="100%">
+    <a class="lightbox-close" href="#"></a>
+</div>
+
+<div id="app-wireframe" style="" class="lightbox-target">
+    <img class="" src="images/vswireframe.png" align="middle" width="60%" height="100%">
+    <a class="lightbox-close" href="#"></a>
+</div>
+
+</body>
+</html>
+
+
+<script language="javascript" type="text/javascript">
+
+</script>
